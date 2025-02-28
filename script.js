@@ -1,10 +1,11 @@
+
 function downloadImage() {
     const input = document.getElementById("userInput").value.trim().toLowerCase();
 
     const imageMap = {
         "chatgpt": "./img src/block-5.jpg",
         "cabin": "./img src/bull.jpg",
-        "canteen": "./img src/canteen-5.jpg",
+        "canteen": "./img src/canteen.jpg",
         "parking": "./img src/car parking.jpg",
         "cyber": "./img src/cipd.jpg",
         "dragon": "./img src/dam.jpg",
