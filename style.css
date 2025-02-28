@@ -1,0 +1,76 @@
+
+body {
+    
+    height: 100vh;
+    background-color: #2c3e50;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-image: url('picture-2.png');
+    background-size:cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family:'impact';
+    font-weight: 100;
+    color: #090202;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0),
+                0 0 20px rgba(6, 1, 1, 0),
+                0 0 30px rgb(255, 255, 255),
+                0 0 40px rgba(255, 255, 255),
+                0 0 50px rgba(255, 255, 255),
+                0 0 60px rgba(255, 255, 255),
+                0 0 60px rgba(255, 255, 255),
+                0 0 70px rgba(255, 255, 255),
+                0 0 80px rgba(255, 255, 255),
+                0 0 90px rgba(255, 255, 255),
+                0 0 100px rgba(255, 255, 255);
+                }
+
+  
+.glow-input {
+    height:20vh;
+    width:60vw;
+    padding: 10px 20px;
+    margin-top: 160px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.7),
+                0 0 50px rgba(52, 152, 219, 0.5),
+                0 0 100px rgba(52, 152, 219, 0.3),
+                0 0 120px rgba(52, 152, 219, 0.3),
+                0 0 140px rgba(52, 152, 219, 0.3),
+                0 0 160px rgba(52, 152, 219, 0.3),
+                0 0 180px rgba(52, 152, 219, 0.3);
+}
+
+.glow-input:focus {
+    box-shadow: 0 0 20px rgba(52, 152, 219, 0.7),
+                0 0 40px rgba(52, 152, 219, 0.5),
+                0 0 60px rgba(52, 152, 219, 0.3),
+                0 0 80px rgba(52, 152, 219, 0.3),
+                0 0 100px rgba(52, 152, 219, 0.3),
+                0 0 120px rgba(52, 152, 219, 0.3),
+                0 0 140px rgba(52, 152, 219, 0.3),
+                0 0 160px rgba(52, 152, 219, 0.3),
+                0 0 180px rgba(52, 152, 219, 0.3),
+                0 0 200px rgba(52, 152, 219, 0.3);
+}
+
+.btn{
+    display: block;
+    margin: 10px;
+    border-style: none;
+    border-radius: 10px;
+    color:white;
+    height:30px;
+    background-color: blue;
+
+
+}
+  
